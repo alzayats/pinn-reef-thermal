@@ -44,6 +44,9 @@ jobs:
             --logo-link https://github.com/alzayats/pinn-reef-thermal \
             pinn_reef_thermal
 
+      - name: Rewrite index page titles
+        run: python docs/postprocess.py site
+
       - name: Upload artefact
         uses: actions/upload-pages-artifact@v3
         with:
