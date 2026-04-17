@@ -1,0 +1,442 @@
+{
+  "davies_reef": {
+    "threshold": 29.661058823529412,
+    "train_time": 276.6267092227936,
+    "params": {
+      "kappa": 0.000436890113633126,
+      "Kd": 0.015834825113415718,
+      "alpha": 0.009316230192780495
+    },
+    "depth_dhd": {
+      "0.5": {
+        "pinn_dhd_final": 0.2925673723220825,
+        "satellite_dhd_final": 0.30909530071935254,
+        "pinn_T_mean": 25.883331298828125,
+        "logger_dhd_final": 0.7128121852874756,
+        "logger_span_days": 1340.0,
+        "pinn_dhd_matched": 0.2925673723220825,
+        "satellite_dhd_matched": 0.30909530071935254
+      },
+      "0.6": {
+        "pinn_dhd_final": 0.2893357574939728,
+        "satellite_dhd_final": 0.30909530071935254,
+        "pinn_T_mean": 25.882463455200195,
+        "logger_dhd_final": 0.7128121852874756,
+        "logger_span_days": 1340.0,
+        "pinn_dhd_matched": 0.2893357574939728,
+        "satellite_dhd_matched": 0.30909530071935254
+      },
+      "1.0": {
+        "pinn_dhd_final": 0.2765219509601593,
+        "satellite_dhd_final": 0.30909530071935254,
+        "pinn_T_mean": 25.878929138183594
+      },
+      "2.0": {
+        "pinn_dhd_final": 0.24534159898757935,
+        "satellite_dhd_final": 0.30909530071935254,
+        "pinn_T_mean": 25.869686126708984,
+        "logger_dhd_final": 0.7821752429008484,
+        "logger_span_days": 190.95833333333334,
+        "pinn_dhd_matched": 0.21183960139751434,
+        "satellite_dhd_matched": 0.25340877966512354
+      },
+      "2.2": {
+        "pinn_dhd_final": 0.23924678564071655,
+        "satellite_dhd_final": 0.30909530071935254,
+        "pinn_T_mean": 25.86777114868164,
+        "logger_dhd_final": 0.7821752429008484,
+        "logger_span_days": 190.95833333333334,
+        "pinn_dhd_matched": 0.20776179432868958,
+        "satellite_dhd_matched": 0.25340877966512354
+      },
+      "3.2": {
+        "pinn_dhd_final": 0.20853407680988312,
+        "satellite_dhd_final": 0.30909530071935254,
+        "pinn_T_mean": 25.85785675048828,
+        "logger_dhd_final": 0.0,
+        "logger_span_days": 29.375,
+        "pinn_dhd_matched": 0.0,
+        "satellite_dhd_matched": 0.0
+      },
+      "3.8": {
+        "pinn_dhd_final": 0.19034694135189056,
+        "satellite_dhd_final": 0.30909530071935254,
+        "pinn_T_mean": 25.85165786743164,
+        "logger_dhd_final": 0.8790068626403809,
+        "logger_span_days": 1340.0,
+        "pinn_dhd_matched": 0.19034694135189056,
+        "satellite_dhd_matched": 0.30909530071935254
+      },
+      "4.0": {
+        "pinn_dhd_final": 0.18419867753982544,
+        "satellite_dhd_final": 0.30909530071935254,
+        "pinn_T_mean": 25.849550247192383,
+        "logger_dhd_final": 0.8790068626403809,
+        "logger_span_days": 1340.0,
+        "pinn_dhd_matched": 0.18419867753982544,
+        "satellite_dhd_matched": 0.30909530071935254
+      },
+      "5.0": {
+        "pinn_dhd_final": 0.1533561497926712,
+        "satellite_dhd_final": 0.30909530071935254,
+        "pinn_T_mean": 25.838735580444336,
+        "logger_dhd_final": 0.1108202189207077,
+        "logger_span_days": 715.875,
+        "pinn_dhd_matched": 0.20375856757164001,
+        "satellite_dhd_matched": 0.1759662488353562
+      },
+      "5.2": {
+        "pinn_dhd_final": 0.14721931517124176,
+        "satellite_dhd_final": 0.30909530071935254,
+        "pinn_T_mean": 25.836517333984375,
+        "logger_dhd_final": 0.4342755973339081,
+        "logger_span_days": 1340.0,
+        "pinn_dhd_matched": 0.14721931517124176,
+        "satellite_dhd_matched": 0.30909530071935254
+      },
+      "5.3": {
+        "pinn_dhd_final": 0.14382927119731903,
+        "satellite_dhd_final": 0.30909530071935254,
+        "pinn_T_mean": 25.835407257080078,
+        "logger_dhd_final": 0.3262898325920105,
+        "logger_span_days": 1030.625,
+        "pinn_dhd_matched": 0.10134793072938919,
+        "satellite_dhd_matched": 0.08578558243757102
+      },
+      "5.7": {
+        "pinn_dhd_final": 0.1313418447971344,
+        "satellite_dhd_final": 0.30909530071935254,
+        "pinn_T_mean": 25.830900192260742,
+        "logger_dhd_final": 0.35139426589012146,
+        "logger_span_days": 1339.9583333333333,
+        "pinn_dhd_matched": 0.0,
+        "satellite_dhd_matched": 0.08804201675416845
+      },
+      "5.8": {
+        "pinn_dhd_final": 0.12838509678840637,
+        "satellite_dhd_final": 0.30909530071935254,
+        "pinn_T_mean": 25.82975959777832,
+        "logger_dhd_final": 0.35139426589012146,
+        "logger_span_days": 1339.9583333333333,
+        "pinn_dhd_matched": 0.0,
+        "satellite_dhd_matched": 0.08804201675416845
+      },
+      "6.5": {
+        "pinn_dhd_final": 0.10606538504362106,
+        "satellite_dhd_final": 0.30909530071935254,
+        "pinn_T_mean": 25.821670532226562,
+        "logger_dhd_final": 0.0,
+        "logger_span_days": 305.2916666666667,
+        "pinn_dhd_matched": 0.0,
+        "satellite_dhd_matched": 0.0
+      },
+      "8.2": {
+        "pinn_dhd_final": 0.05309019237756729,
+        "satellite_dhd_final": 0.30909530071935254,
+        "pinn_T_mean": 25.80121612548828,
+        "logger_dhd_final": 0.13148973882198334,
+        "logger_span_days": 1339.9583333333333,
+        "pinn_dhd_matched": 0.0,
+        "satellite_dhd_matched": 0.08804201675416845
+      },
+      "8.3": {
+        "pinn_dhd_final": 0.050034187734127045,
+        "satellite_dhd_final": 0.30909530071935254,
+        "pinn_T_mean": 25.79998016357422,
+        "logger_dhd_final": 0.06660627573728561,
+        "logger_span_days": 1340.0,
+        "pinn_dhd_matched": 0.050034187734127045,
+        "satellite_dhd_matched": 0.30909530071935254
+      },
+      "8.4": {
+        "pinn_dhd_final": 0.04709462448954582,
+        "satellite_dhd_final": 0.30909530071935254,
+        "pinn_T_mean": 25.798734664916992,
+        "logger_dhd_final": 0.06660627573728561,
+        "logger_span_days": 1340.0,
+        "pinn_dhd_matched": 0.04709462448954582,
+        "satellite_dhd_matched": 0.30909530071935254
+      },
+      "8.5": {
+        "pinn_dhd_final": 0.04372939467430115,
+        "satellite_dhd_final": 0.30909530071935254,
+        "pinn_T_mean": 25.797481536865234,
+        "logger_dhd_final": 0.03923432156443596,
+        "logger_span_days": 1340.0,
+        "pinn_dhd_matched": 0.04372939467430115,
+        "satellite_dhd_matched": 0.30909530071935254
+      },
+      "9.1": {
+        "pinn_dhd_final": 0.02587628923356533,
+        "satellite_dhd_final": 0.30909530071935254,
+        "pinn_T_mean": 25.789918899536133,
+        "logger_dhd_final": 0.004612525459378958,
+        "logger_span_days": 1315.0416666666667,
+        "pinn_dhd_matched": 0.010920529253780842,
+        "satellite_dhd_matched": 0.28694174939957096
+      },
+      "10.0": {
+        "pinn_dhd_final": 0.009906929917633533,
+        "satellite_dhd_final": 0.30909530071935254,
+        "pinn_T_mean": 25.77829360961914
+      },
+      "10.7": {
+        "pinn_dhd_final": 0.0,
+        "satellite_dhd_final": 0.30909530071935254,
+        "pinn_T_mean": 25.769018173217773,
+        "logger_dhd_final": 0.0,
+        "logger_span_days": 1160.7083333333333,
+        "pinn_dhd_matched": 0.15456396341323853,
+        "satellite_dhd_matched": 0.0879316848164049
+      },
+      "10.8": {
+        "pinn_dhd_final": 0.0,
+        "satellite_dhd_final": 0.30909530071935254,
+        "pinn_T_mean": 25.767677307128906,
+        "logger_dhd_final": 0.0,
+        "logger_span_days": 1160.7083333333333,
+        "pinn_dhd_matched": 0.15301676094532013,
+        "satellite_dhd_matched": 0.0879316848164049
+      },
+      "15.0": {
+        "pinn_dhd_final": 0.0,
+        "satellite_dhd_final": 0.30909530071935254,
+        "pinn_T_mean": 25.706768035888672
+      },
+      "18.1": {
+        "pinn_dhd_final": 0.0,
+        "satellite_dhd_final": 0.30909530071935254,
+        "pinn_T_mean": 25.6545352935791,
+        "logger_dhd_final": 0.0,
+        "logger_span_days": 1316.375,
+        "pinn_dhd_matched": 0.0,
+        "satellite_dhd_matched": 0.14407494576890284
+      },
+      "18.5": {
+        "pinn_dhd_final": 0.0,
+        "satellite_dhd_final": 0.30909530071935254,
+        "pinn_T_mean": 25.64722442626953,
+        "logger_dhd_final": 0.0,
+        "logger_span_days": 1340.0,
+        "pinn_dhd_matched": 0.0,
+        "satellite_dhd_matched": 0.30909530071935254
+      },
+      "20.0": {
+        "pinn_dhd_final": 0.0,
+        "satellite_dhd_final": 0.30909530071935254,
+        "pinn_T_mean": 25.618371963500977
+      }
+    }
+  },
+  "myrmidon_reef": {
+    "threshold": 30.33569105691057,
+    "train_time": 249.2004828453064,
+    "params": {
+      "kappa": 0.0001266490580746904,
+      "Kd": 0.005379124078899622,
+      "alpha": -0.14364588260650635
+    },
+    "depth_dhd": {
+      "0.5": {
+        "pinn_dhd_final": 0.0,
+        "satellite_dhd_final": 0.0,
+        "pinn_T_mean": 26.983495712280273
+      },
+      "1.0": {
+        "pinn_dhd_final": 0.0,
+        "satellite_dhd_final": 0.0,
+        "pinn_T_mean": 26.918909072875977
+      },
+      "2.0": {
+        "pinn_dhd_final": 0.0,
+        "satellite_dhd_final": 0.0,
+        "pinn_T_mean": 26.795833587646484,
+        "logger_dhd_final": 0.19033482670783997,
+        "logger_span_days": 1583.0,
+        "pinn_dhd_matched": 0.0,
+        "satellite_dhd_matched": 0.0
+      },
+      "4.7": {
+        "pinn_dhd_final": 0.0,
+        "satellite_dhd_final": 0.0,
+        "pinn_T_mean": 26.510452270507812,
+        "logger_dhd_final": 0.5034773349761963,
+        "logger_span_days": 1583.0,
+        "pinn_dhd_matched": 0.0,
+        "satellite_dhd_matched": 0.0
+      },
+      "5.0": {
+        "pinn_dhd_final": 0.0,
+        "satellite_dhd_final": 0.0,
+        "pinn_T_mean": 26.483518600463867
+      },
+      "7.3": {
+        "pinn_dhd_final": 0.0,
+        "satellite_dhd_final": 0.0,
+        "pinn_T_mean": 26.3133544921875,
+        "logger_dhd_final": 0.0,
+        "logger_span_days": 1583.0,
+        "pinn_dhd_matched": 0.0,
+        "satellite_dhd_matched": 0.0
+      },
+      "8.0": {
+        "pinn_dhd_final": 0.0,
+        "satellite_dhd_final": 0.0,
+        "pinn_T_mean": 26.2752742767334,
+        "logger_dhd_final": 0.0,
+        "logger_span_days": 1582.9583333333333,
+        "pinn_dhd_matched": 0.0,
+        "satellite_dhd_matched": 0.0
+      },
+      "10.0": {
+        "pinn_dhd_final": 0.0,
+        "satellite_dhd_final": 0.0,
+        "pinn_T_mean": 26.205045700073242
+      },
+      "14.7": {
+        "pinn_dhd_final": 0.0,
+        "satellite_dhd_final": 0.0,
+        "pinn_T_mean": 26.282907485961914,
+        "logger_dhd_final": 0.0002489884791430086,
+        "logger_span_days": 1583.0,
+        "pinn_dhd_matched": 0.0,
+        "satellite_dhd_matched": 0.0
+      },
+      "15.0": {
+        "pinn_dhd_final": 0.0,
+        "satellite_dhd_final": 0.0,
+        "pinn_T_mean": 26.299692153930664
+      },
+      "20.0": {
+        "pinn_dhd_final": 0.0,
+        "satellite_dhd_final": 0.0,
+        "pinn_T_mean": 26.766498565673828,
+        "logger_dhd_final": 0.0,
+        "logger_span_days": 1582.9583333333333,
+        "pinn_dhd_matched": 0.0,
+        "satellite_dhd_matched": 0.0
+      }
+    }
+  },
+  "rib_reef": {
+    "threshold": 30.048652482269503,
+    "train_time": 230.82014870643616,
+    "params": {
+      "kappa": 0.00021093216491863132,
+      "Kd": 0.2795901596546173,
+      "alpha": -0.4909076690673828
+    },
+    "depth_dhd": {
+      "0.5": {
+        "pinn_dhd_final": 3.0261898040771484,
+        "satellite_dhd_final": 3.0766617438884096,
+        "pinn_T_mean": 26.54327964782715
+      },
+      "1.0": {
+        "pinn_dhd_final": 3.328411817550659,
+        "satellite_dhd_final": 3.0766617438884096,
+        "pinn_T_mean": 26.50404167175293,
+        "logger_dhd_final": 10.130298614501953,
+        "logger_span_days": 1948.0,
+        "pinn_dhd_matched": 3.328411817550659,
+        "satellite_dhd_matched": 3.0766617438884096
+      },
+      "2.0": {
+        "pinn_dhd_final": 3.742778778076172,
+        "satellite_dhd_final": 3.0766617438884096,
+        "pinn_T_mean": 26.394306182861328
+      },
+      "5.0": {
+        "pinn_dhd_final": 1.8158856630325317,
+        "satellite_dhd_final": 3.0766617438884096,
+        "pinn_T_mean": 25.992107391357422
+      },
+      "6.0": {
+        "pinn_dhd_final": 0.7835620641708374,
+        "satellite_dhd_final": 3.0766617438884096,
+        "pinn_T_mean": 25.95185089111328,
+        "logger_dhd_final": 1.7788093090057373,
+        "logger_span_days": 1948.0,
+        "pinn_dhd_matched": 0.7835620641708374,
+        "satellite_dhd_matched": 3.0766617438884096
+      },
+      "9.0": {
+        "pinn_dhd_final": 0.1368131935596466,
+        "satellite_dhd_final": 3.0766617438884096,
+        "pinn_T_mean": 26.367685317993164,
+        "logger_dhd_final": 2.458540201187134,
+        "logger_span_days": 1948.0,
+        "pinn_dhd_matched": 0.1368131935596466,
+        "satellite_dhd_matched": 3.0766617438884096
+      }
+    }
+  },
+  "kelso_reef": {
+    "threshold": 29.483676470588236,
+    "train_time": 216.4908573627472,
+    "params": {
+      "kappa": 0.00044177621020935476,
+      "Kd": 0.02253761515021324,
+      "alpha": -0.06417016685009003
+    },
+    "depth_dhd": {
+      "0.5": {
+        "pinn_dhd_final": 2.1471967697143555,
+        "satellite_dhd_final": 2.270038943254905,
+        "pinn_T_mean": 25.965171813964844
+      },
+      "1.0": {
+        "pinn_dhd_final": 2.0345773696899414,
+        "satellite_dhd_final": 2.270038943254905,
+        "pinn_T_mean": 25.961166381835938
+      },
+      "2.0": {
+        "pinn_dhd_final": 1.859680414199829,
+        "satellite_dhd_final": 2.270038943254905,
+        "pinn_T_mean": 25.95302963256836,
+        "logger_dhd_final": 2.9300804138183594,
+        "logger_span_days": 1206.4166666666667,
+        "pinn_dhd_matched": 1.6246845722198486,
+        "satellite_dhd_matched": 2.2873578863826656
+      },
+      "5.0": {
+        "pinn_dhd_final": 1.442762851715088,
+        "satellite_dhd_final": 2.270038943254905,
+        "pinn_T_mean": 25.928939819335938
+      },
+      "7.0": {
+        "pinn_dhd_final": 1.2569291591644287,
+        "satellite_dhd_final": 2.270038943254905,
+        "pinn_T_mean": 25.914588928222656,
+        "logger_dhd_final": 0.39596089720726013,
+        "logger_span_days": 1206.4583333333333,
+        "pinn_dhd_matched": 0.5720167756080627,
+        "satellite_dhd_matched": 2.2907844272705438
+      },
+      "10.0": {
+        "pinn_dhd_final": 1.1085892915725708,
+        "satellite_dhd_final": 2.270038943254905,
+        "pinn_T_mean": 25.89775276184082
+      },
+      "15.0": {
+        "pinn_dhd_final": 0.6476818323135376,
+        "satellite_dhd_final": 2.270038943254905,
+        "pinn_T_mean": 25.884429931640625
+      },
+      "19.0": {
+        "pinn_dhd_final": 0.24981825053691864,
+        "satellite_dhd_final": 2.270038943254905,
+        "pinn_T_mean": 25.88182258605957,
+        "logger_dhd_final": 0.0,
+        "logger_span_days": 1207.0,
+        "pinn_dhd_matched": 0.24981825053691864,
+        "satellite_dhd_matched": 2.270038943254905
+      },
+      "20.0": {
+        "pinn_dhd_final": 0.18288229405879974,
+        "satellite_dhd_final": 2.270038943254905,
+        "pinn_T_mean": 25.88088035583496
+      }
+    }
+  }
+}

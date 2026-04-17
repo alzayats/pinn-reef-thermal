@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Preprint and paper
+    url: https://github.com/alzayats/pinn-reef-thermal#citation
+    about: The accompanying Environmental Modelling and Software paper is the authoritative scientific reference.
+  - name: API documentation
+    url: https://alzayats.github.io/pinn-reef-thermal/
+    about: Auto-generated docs for every public function and class.
+  - name: FAQ
+    url: https://github.com/alzayats/pinn-reef-thermal/blob/master/FAQ.md
+    about: Common questions about minimum data requirements, non-GBR reefs, hardware, and more.

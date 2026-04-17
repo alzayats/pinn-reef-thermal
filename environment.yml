@@ -1,0 +1,16 @@
+name: pinn-reef-thermal
+channels:
+  - conda-forge
+  - nvidia
+dependencies:
+  - python=3.10
+  - numpy
+  - scipy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - cartopy
+  - requests
+  - pip
+  - pip:
+    - jax[cuda12]

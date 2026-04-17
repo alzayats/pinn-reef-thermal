@@ -1,0 +1,64 @@
+cff-version: 1.2.0
+message: >-
+  If you use this software, please cite both the software itself
+  and the accompanying paper.
+type: software
+title: >-
+  pinn-reef-thermal: Physics-Informed Neural Networks for
+  Depth-Resolved Coral Reef Thermal Reconstruction
+abstract: >-
+  Open-source Python package implementing a physics-informed
+  neural network framework for reconstructing depth-resolved
+  thermal fields on coral reefs from satellite sea surface
+  temperature and sparse in-situ logger observations. The
+  framework embeds the one-dimensional vertical heat equation
+  with depth-attenuated solar heating as a soft constraint,
+  enforces satellite SST as a hard surface boundary condition,
+  and jointly learns effective thermal diffusivity and light
+  attenuation from data.
+authors:
+  - given-names: Alzayat
+    family-names: Saleh
+    email: alzayat.saleh@my.jcu.edu.au
+    orcid: 'https://orcid.org/0000-0001-6973-019X'
+    affiliation: >-
+      College of Science and Engineering, and Centre for AI
+      and Data Science Innovation, James Cook University,
+      Townsville, QLD, Australia
+  - given-names: Mostafa
+    family-names: Rahimi Azghadi
+    affiliation: >-
+      College of Science and Engineering, and Centre for AI
+      and Data Science Innovation, James Cook University,
+      Townsville, QLD, Australia
+version: 1.0.0
+date-released: '2026-04-17'
+license: MIT
+repository-code: 'https://github.com/alzayats/pinn-reef-thermal'
+url: 'https://github.com/alzayats/pinn-reef-thermal'
+doi: 10.5281/zenodo.PLACEHOLDER
+keywords:
+  - physics-informed neural network
+  - coral bleaching
+  - satellite sea surface temperature
+  - depth-resolved temperature
+  - Great Barrier Reef
+  - degree heating days
+  - data fusion
+preferred-citation:
+  type: article
+  title: >-
+    Depth-Resolved Coral Reef Thermal Fields from Satellite
+    SST and Sparse In-Situ Loggers Using Physics-Informed
+    Neural Networks
+  authors:
+    - given-names: Alzayat
+      family-names: Saleh
+      email: alzayat.saleh@my.jcu.edu.au
+      orcid: 'https://orcid.org/0000-0001-6973-019X'
+      affiliation: James Cook University
+    - given-names: Mostafa
+      family-names: Rahimi Azghadi
+      affiliation: James Cook University
+  journal: Environmental Modelling & Software
+  year: 2026

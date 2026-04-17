@@ -1,0 +1,130 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pinn-reef-thermal"
+version = "1.0.0"
+description = "Physics-informed neural networks for depth-resolved coral reef thermal field reconstruction from satellite SST and sparse in-situ loggers."
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.10"
+authors = [
+    { name = "Alzayat Saleh", email = "alzayat.saleh@my.jcu.edu.au" },
+    { name = "Mostafa Rahimi Azghadi" },
+]
+maintainers = [
+    { name = "Alzayat Saleh", email = "alzayat.saleh@my.jcu.edu.au" },
+]
+keywords = [
+    "physics-informed neural network",
+    "PINN",
+    "coral bleaching",
+    "satellite sea surface temperature",
+    "Great Barrier Reef",
+    "degree heating days",
+    "data fusion",
+    "environmental modelling",
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: POSIX :: Linux",
+    "Operating System :: MacOS",
+    "Operating System :: Microsoft :: Windows",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Scientific/Engineering :: Atmospheric Science",
+    "Topic :: Scientific/Engineering :: Oceanography",
+]
+dependencies = [
+    "numpy>=1.24",
+    "scipy>=1.10",
+    "pandas>=2.0",
+    "scikit-learn>=1.3",
+    "matplotlib>=3.7",
+    "requests>=2.28",
+]
+
+[project.optional-dependencies]
+cpu = [
+    "jax[cpu]>=0.4.25",
+]
+gpu = [
+    "jax[cuda12]>=0.4.25",
+]
+maps = [
+    "cartopy>=0.22",
+]
+dev = [
+    "pytest>=7.4",
+    "pytest-cov>=4.1",
+    "ruff>=0.4",
+    "pdoc>=14.4",
+    "ipykernel>=6.25",
+    "jupyter>=1.0",
+]
+all = [
+    "pinn-reef-thermal[cpu,maps,dev]",
+]
+
+[project.urls]
+Homepage = "https://github.com/alzayats/pinn-reef-thermal"
+Repository = "https://github.com/alzayats/pinn-reef-thermal"
+Issues = "https://github.com/alzayats/pinn-reef-thermal/issues"
+Changelog = "https://github.com/alzayats/pinn-reef-thermal/blob/master/CHANGELOG.md"
+Documentation = "https://alzayats.github.io/pinn-reef-thermal/"
+
+[project.scripts]
+pinn-reef = "pinn_reef_thermal.cli:main"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["pinn_reef_thermal*"]
+
+[tool.setuptools.package-data]
+pinn_reef_thermal = ["py.typed"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+extend-exclude = [
+    "scripts",
+    "examples",
+    "tests",
+]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "UP"]
+ignore = [
+    "E501",   # line too long (let pyproject control it)
+    "E741",   # ambiguous variable name (kappa, Kd are domain-standard)
+    "E731",   # lambda assignment (used intentionally inside JIT-compiled loss)
+    "F403",   # star imports (not used, kept for safety)
+]
+
+[tool.ruff.lint.per-file-ignores]
+"src/pinn_reef_thermal/pinn.py" = [
+    "B023",  # closure-captured loop variable (used inside a single-threaded loop where capture is intentional)
+]
+
+[tool.pytest.ini_options]
+minversion = "7.0"
+addopts = "-ra -q --strict-markers"
+testpaths = ["tests"]
+markers = [
+    "slow: tests that take more than a minute",
+    "gpu: tests that require a GPU",
+]
+filterwarnings = [
+    "ignore::DeprecationWarning",
+]
