@@ -36,7 +36,7 @@ date-released: '2026-04-17'
 license: MIT
 repository-code: 'https://github.com/alzayats/pinn-reef-thermal'
 url: 'https://github.com/alzayats/pinn-reef-thermal'
-doi: 10.5281/zenodo.PLACEHOLDER
+doi: 10.5281/zenodo.19624895
 keywords:
   - physics-informed neural network
   - coral bleaching

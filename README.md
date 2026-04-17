@@ -4,7 +4,7 @@ A physics-informed neural network framework for reconstructing depth-resolved
 thermal fields on coral reefs from NOAA Coral Reef Watch satellite SST and
 sparse in-situ temperature loggers. Python package name: `pinn-reef-thermal`.
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.PLACEHOLDER.svg)](https://doi.org/10.5281/zenodo.PLACEHOLDER)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19624895.svg)](https://doi.org/10.5281/zenodo.19624895)
 [![test](https://github.com/alzayats/pinn-reef-thermal/actions/workflows/test.yml/badge.svg)](https://github.com/alzayats/pinn-reef-thermal/actions/workflows/test.yml)
 [![docs](https://github.com/alzayats/pinn-reef-thermal/actions/workflows/docs.yml/badge.svg)](https://alzayats.github.io/pinn-reef-thermal/)
 [![Python](https://img.shields.io/badge/python-3.10%20%7C%203.11%20%7C%203.12-blue.svg)](https://www.python.org/)
@@ -313,7 +313,7 @@ the software:
              Depth-Resolved Coral Reef Thermal Reconstruction},
   year    = {2026},
   version = {1.0.0},
-  doi     = {10.5281/zenodo.PLACEHOLDER},
+  doi     = {10.5281/zenodo.19624895},
   url     = {https://github.com/alzayats/pinn-reef-thermal}
 }
 ```
